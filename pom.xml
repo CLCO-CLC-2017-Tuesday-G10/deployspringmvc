@@ -94,7 +94,7 @@
 		<!-- https://mvnrepository.com/artifact/com.google.appengine/appengine-maven-plugin -->
 <dependency>
     <groupId>com.google.appengine</groupId>
-    <artifactId>appengine-maven-plugin</artifactId>
+    <artifactId>appengine-api-1.0-sdk</artifactId>
     <version>1.9.18</version>
 </dependency>
 		
@@ -127,7 +127,7 @@
       <plugin>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-maven-plugin</artifactId>
-            <version>1.9.24</version>
+            <version>1.9.18</version>
         </plugin>
       
 			</plugins>
