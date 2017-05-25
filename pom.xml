@@ -119,11 +119,7 @@
         </configuration>
       </plugin>
       <!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
-      <plugin>
-            <groupId>com.google.appengine</groupId>
-            <artifactId>appengine-maven-plugin</artifactId>
-            <version>1.9.9</version>
-        </plugin>
+     
       
 			</plugins>
 		</pluginManagement>
