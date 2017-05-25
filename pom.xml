@@ -13,8 +13,7 @@
 		<springframework.version>4.2.0.RELEASE</springframework.version>
 		<hibernate.version>4.3.10.Final</hibernate.version>
 		<mysql.connector.version>5.1.14</mysql.connector.version>
-		
-	
+
 	</properties>
 
 	<dependencies>
@@ -109,17 +108,20 @@
 					</configuration>
 				</plugin>
 				<!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
-      <plugin>
+     <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <version>3.3</version>
         <artifactId>maven-compiler-plugin</artifactId>
-     
+        <configuration>
+          <source>1.7</source>
+          <target>1.7</target>
+        </configuration>
       </plugin>
       <!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
       <plugin>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-maven-plugin</artifactId>
-            <version>1.9.30</version>
+            <version>1.9.9</version>
         </plugin>
       
 			</plugins>
