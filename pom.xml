@@ -113,10 +113,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <version>3.6.1</version>
         <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
+     
       </plugin>
       <!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
       <plugin>
