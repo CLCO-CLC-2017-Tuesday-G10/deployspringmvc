@@ -5,7 +5,7 @@
   <groupId>com.websystique.springmvc</groupId>
   <artifactId>Spring4MVCFileUploadDownloadWithHibernate</artifactId>
   <packaging>war</packaging>
-  <version>1.0.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>Spring4MVCFileUploadDownloadWithHibernate Maven Webapp</name>
   <url>http://maven.apache.org</url>
   
@@ -113,8 +113,8 @@
         <version>3.3</version>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
       <!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
