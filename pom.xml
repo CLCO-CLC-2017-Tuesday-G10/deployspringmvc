@@ -91,6 +91,12 @@
 		    <artifactId>jstl</artifactId>
 		    <version>1.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.google.appengine/appengine-maven-plugin -->
+<dependency>
+    <groupId>com.google.appengine</groupId>
+    <artifactId>appengine-maven-plugin</artifactId>
+    <version>1.9.18</version>
+</dependency>
 		
 	</dependencies>
 
@@ -110,19 +116,15 @@
 				<!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <version>3.3</version>
+        <version>3.6.1</version>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
+          <source>1.7</source>
+          <target>1.7</target>
         </configuration>
       </plugin>
+      
       <!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
-      <plugin>
-            <groupId>com.google.appengine</groupId>
-            <artifactId>appengine-maven-plugin</artifactId>
-            <version>1.9.18</version>
-        </plugin>
       
 			</plugins>
 		</pluginManagement>
