@@ -116,15 +116,19 @@
 				<!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <version>3.6.1</version>
+        <version>3.3</version>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
         </configuration>
       </plugin>
-      
       <!-- Parent POM defines ${appengine.sdk.version} (updates frequently). -->
+      <plugin>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-maven-plugin</artifactId>
+            <version>1.9.9</version>
+        </plugin>
       
 			</plugins>
 		</pluginManagement>
